@@ -21,27 +21,16 @@ async function login_nextgen(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual NextGen EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.NEXTGEN_URL}/path/to/login-nextgen`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('login_nextgen complete', result);
-      return result;
-
+      // TODO: Replace with actual NextGen EHR selectors
+    // await page.goto(`${process.env.NEXTGEN_URL}/path/to/login-nextgen`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('login_nextgen complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-login_nextgen-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -61,27 +50,16 @@ async function schedule_patient(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual NextGen EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.NEXTGEN_URL}/path/to/schedule-patient`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('schedule_patient complete', result);
-      return result;
-
+      // TODO: Replace with actual NextGen EHR selectors
+    // await page.goto(`${process.env.NEXTGEN_URL}/path/to/schedule-patient`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('schedule_patient complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-schedule_patient-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -101,27 +79,16 @@ async function document_encounter(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual NextGen EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.NEXTGEN_URL}/path/to/document-encounter`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('document_encounter complete', result);
-      return result;
-
+      // TODO: Replace with actual NextGen EHR selectors
+    // await page.goto(`${process.env.NEXTGEN_URL}/path/to/document-encounter`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('document_encounter complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-document_encounter-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -141,27 +108,16 @@ async function order_labs(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual NextGen EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.NEXTGEN_URL}/path/to/order-labs`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('order_labs complete', result);
-      return result;
-
+      // TODO: Replace with actual NextGen EHR selectors
+    // await page.goto(`${process.env.NEXTGEN_URL}/path/to/order-labs`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('order_labs complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-order_labs-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -181,27 +137,16 @@ async function manage_prescriptions(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual NextGen EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.NEXTGEN_URL}/path/to/manage-prescriptions`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('manage_prescriptions complete', result);
-      return result;
-
+      // TODO: Replace with actual NextGen EHR selectors
+    // await page.goto(`${process.env.NEXTGEN_URL}/path/to/manage-prescriptions`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('manage_prescriptions complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-manage_prescriptions-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
